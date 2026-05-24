@@ -13,7 +13,6 @@ public class BillPaySteps extends BaseClass {
 	LoginPage loginPage;
 	BillPayPage billPayPage;
 
-	// Login
 
 	@When("user logs into parabank for bill payment")
 	public void user_logs_into_parabank_for_bill_payment() {
@@ -26,7 +25,6 @@ public class BillPaySteps extends BaseClass {
 		loginPage.clickLoginButton();
 	}
 
-	// Scenario 17
 
 	@When("user clicks on bill pay link")
 	public void user_clicks_on_bill_pay_link() {
@@ -43,7 +41,6 @@ public class BillPaySteps extends BaseClass {
 				billPayPage.verifyBillPayPage());
 	}
 
-	// Scenario 18
 
 	@When("user enters valid bill payment details")
 	public void user_enters_valid_bill_payment_details() {
@@ -80,7 +77,7 @@ public class BillPaySteps extends BaseClass {
 				billPayPage.verifyPaymentSuccess());
 	}
 
-	// Scenario 19
+	
 
 	@When("user enters invalid bill payment details")
 	public void user_enters_invalid_bill_payment_details() {
@@ -111,7 +108,6 @@ public class BillPaySteps extends BaseClass {
 				billPayPage.verifyInvalidPayment());
 	}
 
-	// Scenario 20
 
 	@Then("user should see bill payment confirmation message")
 	public void user_should_see_bill_payment_confirmation_message() {

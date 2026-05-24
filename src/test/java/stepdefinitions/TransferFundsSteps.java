@@ -24,7 +24,6 @@ public class TransferFundsSteps extends BaseClass {
 		loginPage.clickLoginButton();
 	}
 
-	// Scenario 13
 
 	@When("user clicks on transfer funds link")
 	public void user_clicks_on_transfer_funds_link() {
@@ -43,7 +42,7 @@ public class TransferFundsSteps extends BaseClass {
 				.verifyTransferFundsPage());
 	}
 
-	// Scenario 14
+
 
 	@When("user enters valid transfer amount")
 	public void user_enters_valid_transfer_amount() {
@@ -65,7 +64,6 @@ public class TransferFundsSteps extends BaseClass {
 				.verifyTransferSuccess());
 	}
 
-	// Scenario 15
 
 	@When("user enters invalid transfer amount")
 	public void user_enters_invalid_transfer_amount() {
@@ -81,7 +79,6 @@ public class TransferFundsSteps extends BaseClass {
 				.verifyInvalidTransfer());
 	}
 
-	// Scenario 16
 
 	@Then("user should see transfer success message")
 	public void user_should_see_transfer_success_message() {

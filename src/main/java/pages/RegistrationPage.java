@@ -15,8 +15,6 @@ public class RegistrationPage {
         PageFactory.initElements(driver, this);
     }
 
-    // Locators
-
     @FindBy(linkText = "Register")
     WebElement registerLink;
 
@@ -62,7 +60,6 @@ public class RegistrationPage {
     @FindBy(id = "customer.firstName.errors")
     WebElement firstNameError;
 
-    // Actions
 
     public void clickRegisterLink() {
 
@@ -129,8 +126,6 @@ public class RegistrationPage {
 
         btnRegister.click();
     }
-
-    // Validations
 
     public String getSuccessMessage() {
 

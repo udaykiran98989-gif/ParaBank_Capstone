@@ -11,7 +11,6 @@ public class RegistrationSteps extends BaseClass {
 
     RegistrationPage register;
 
-    // Scenario 7
 
     @When("user clicks on register link")
     public void user_clicks_on_register_link() {
@@ -21,7 +20,7 @@ public class RegistrationSteps extends BaseClass {
         register.clickRegisterLink();
     }
 
-    // Scenario 8
+   
 
     @When("user enters firstname")
     public void user_enters_firstname() {
@@ -95,7 +94,7 @@ public class RegistrationSteps extends BaseClass {
         register.clickRegisterButton();
     }
 
-    // Scenario 9
+ 
 
     @When("user clicks register button without entering mandatory fields")
     public void user_clicks_register_button_without_entering_mandatory_fields() {
@@ -103,7 +102,6 @@ public class RegistrationSteps extends BaseClass {
         register.clickRegisterButton();
     }
 
-    // Scenario 10
 
     @Then("user should register successfully")
     public void user_should_register_successfully() {

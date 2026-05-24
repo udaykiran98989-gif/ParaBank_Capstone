@@ -15,7 +15,7 @@ public class AccountsPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Locators
+	
 
 	@FindBy(linkText = "Accounts Overview")
 	WebElement accountsOverviewLink;
@@ -26,14 +26,14 @@ public class AccountsPage {
 	@FindBy(id = "accountTable")
 	WebElement accountsTable;
 
-	// Actions
+	
 
 	public void clickAccountsOverview() {
 
 		accountsOverviewLink.click();
 	}
 
-	// Validations
+
 
 	public String getAccountsOverviewPageText() {
 

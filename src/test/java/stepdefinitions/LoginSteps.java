@@ -21,7 +21,6 @@ public class LoginSteps extends BaseClass {
         loginPage = new LoginPage(driver);
     }
 
-    // Scenario 1
     @When("User enters valid username and password")
     public void user_enters_valid_username_and_password() {
 
@@ -29,23 +28,20 @@ public class LoginSteps extends BaseClass {
         loginPage.enterPassword("demo");
     }
 
-    // Scenario 2
     @When("User enters invalid username and valid password")
     public void user_enters_invalid_username_and_valid_password() {
 
         loginPage.enterUsername("wronguser");
-        loginPage.enterPassword("demo");
+        loginPage.enterPassword("NoPassword@123");
     }
 
-    // Scenario 3
     @When("User enters valid username and invalid password")
     public void user_enters_valid_username_and_invalid_password() {
 
-        loginPage.enterUsername("john");
+        loginPage.enterUsername("udaySample");
         loginPage.enterPassword("wrongpass");
     }
 
-    // Scenario 4
     @When("User enters blank username and password")
     public void user_enters_blank_username_and_password() {
 
@@ -53,14 +49,14 @@ public class LoginSteps extends BaseClass {
         loginPage.enterPassword("");
     }
 
-    // Common Action
+ 
     @And("User clicks login button")
     public void user_clicks_login_button() {
 
         loginPage.clickLoginButton();
     }
 
-    // Scenario 1 Validation
+   
     @Then("User should navigate to account overview page")
     public void user_should_navigate_to_account_overview_page() {
 

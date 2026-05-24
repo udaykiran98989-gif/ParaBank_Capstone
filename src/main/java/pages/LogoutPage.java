@@ -25,7 +25,7 @@ public class LogoutPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Locators
+	
 
 	@FindBy(linkText = "Log Out")
 	WebElement logoutLink;
@@ -39,14 +39,14 @@ public class LogoutPage {
 	@FindBy(xpath = "//input[@value='Log In']")
 	WebElement loginButton;
 
-	// Actions
+	
 
 	public void clickLogoutLink() {
 
 		logoutLink.click();
 	}
 
-	// Validations
+	
 
 	public boolean verifyLogoutSuccess() {
 

@@ -13,7 +13,6 @@ public class UpdateContactInfoSteps extends BaseClass {
 	LoginPage loginPage;
 	UpdateContactInfoPage updatePage;
 
-	// Login
 
 	@When("user logs into parabank for update contact info")
 	public void user_logs_into_parabank_for_update_contact_info() {
@@ -26,7 +25,6 @@ public class UpdateContactInfoSteps extends BaseClass {
 		loginPage.clickLoginButton();
 	}
 
-	// Scenario 21
 
 	@When("user clicks on update contact info link")
 	public void user_clicks_on_update_contact_info_link() {
@@ -45,7 +43,6 @@ public class UpdateContactInfoSteps extends BaseClass {
 				.verifyUpdateContactInfoPage());
 	}
 
-	// Scenario 22
 
 	@When("user enters valid contact details")
 	public void user_enters_valid_contact_details() {
@@ -79,7 +76,6 @@ public class UpdateContactInfoSteps extends BaseClass {
 				.verifyUpdateSuccess());
 	}
 
-	// Scenario 23
 
 	@When("user enters invalid contact details")
 	public void user_enters_invalid_contact_details() {
@@ -107,7 +103,6 @@ public class UpdateContactInfoSteps extends BaseClass {
 				.verifyInvalidUpdateBehavior());
 	}
 
-	// Scenario 24
 
 	@Then("user should see updated contact information message")
 	public void user_should_see_updated_contact_information_message() {

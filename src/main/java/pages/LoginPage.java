@@ -15,8 +15,6 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    // Locators
-
     @FindBy(name = "username")
     WebElement txtUsername;
 
@@ -32,7 +30,7 @@ public class LoginPage {
     @FindBy(linkText = "Register")
     WebElement registerLink;
 
-    // Actions
+    
 
     public void enterUsername(String username) {
 
@@ -61,7 +59,7 @@ public class LoginPage {
         registerLink.click();
     }
 
-    // Validations
+    
 
     public boolean verifyUsernameTextbox() {
 
@@ -82,8 +80,6 @@ public class LoginPage {
 
         return registerLink.isDisplayed();
     }
-
-    // Reusable Login Method
 
     public void loginToApplication(String username,
                                    String password) {

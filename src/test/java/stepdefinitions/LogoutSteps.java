@@ -13,7 +13,6 @@ public class LogoutSteps extends BaseClass {
 	LoginPage loginPage;
 	LogoutPage logoutPage;
 
-	// Login
 
 	@When("user logs into parabank for logout")
 	public void user_logs_into_parabank_for_logout() {
@@ -26,7 +25,7 @@ public class LogoutSteps extends BaseClass {
 		loginPage.clickLoginButton();
 	}
 
-	// Scenario 25
+
 
 	@When("user clicks logout link")
 	public void user_clicks_logout_link() {
@@ -52,7 +51,7 @@ public class LogoutSteps extends BaseClass {
 		loginPage.enterPassword("wrongpass");
 	}
 
-	// Scenario 26
+
 	@Then("user session should terminate successfully")
 	public void user_session_should_terminate_successfully() {
 

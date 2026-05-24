@@ -25,7 +25,6 @@ public class UpdateContactInfoPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Locators
 
 	@FindBy(linkText = "Update Contact Info")
 	WebElement updateContactInfoLink;
@@ -60,7 +59,6 @@ public class UpdateContactInfoPage {
 	@FindBy(xpath = "//div[@id='updateProfileResult']")
 	WebElement updateResult;
 
-	// Actions
 
 	public void clickUpdateContactInfoLink() {
 
@@ -114,8 +112,7 @@ public class UpdateContactInfoPage {
 		btnUpdateProfile.click();
 	}
 
-	// Validations
-
+	
 	public boolean verifyUpdateContactInfoPage() {
 
 		wait.until(ExpectedConditions

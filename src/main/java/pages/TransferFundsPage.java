@@ -25,7 +25,6 @@ public class TransferFundsPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Locators
 
 	@FindBy(linkText = "Transfer Funds")
 	WebElement transferFundsLink;
@@ -42,7 +41,6 @@ public class TransferFundsPage {
 	@FindBy(id = "showResult")
 	WebElement resultBox;
 
-	// Actions
 
 	public void clickTransferFundsLink() {
 
@@ -60,7 +58,6 @@ public class TransferFundsPage {
 		btnTransfer.click();
 	}
 
-	// Validations
 
 	public boolean verifyTransferFundsPage() {
 
