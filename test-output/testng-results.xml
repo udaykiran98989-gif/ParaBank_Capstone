@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="0" failed="12" skipped="0">
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-24T15:43:14 IST" name="Default suite" finished-at="2026-05-24T15:43:16 IST" duration-ms="1467">
+  <suite started-at="2026-05-25T15:39:36 IST" name="Default suite" finished-at="2026-05-25T15:44:04 IST" duration-ms="267321">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-05-24T15:43:14 IST" name="Default test" finished-at="2026-05-24T15:43:16 IST" duration-ms="1467">
+    <test started-at="2026-05-25T15:39:36 IST" name="Default test" finished-at="2026-05-25T15:44:04 IST" duration-ms="267321">
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:14 IST" name="setUpClass" finished-at="2026-05-24T15:43:15 IST" duration-ms="924" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:39:36 IST" name="setUpClass" finished-at="2026-05-25T15:39:37 IST" duration-ms="824" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5ed190be]]>
+                <![CDATA[org.testng.TestRunner@16602333]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="160" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:39:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:39:49 IST" duration-ms="12240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,66 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user logs into ParaBank application")
-public void user_logs_into_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on accounts overview")
-public void user_clicks_on_accounts_overview() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should navigate to accounts overview page")
-public void user_should_navigate_to_accounts_overview_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user logs into ParaBank application")
-public void user_logs_into_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on accounts overview")
-public void user_clicks_on_accounts_overview() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should navigate to accounts overview page")
-public void user_should_navigate_to_accounts_overview_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/AccountOverview.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="16" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:39:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:02 IST" duration-ms="12794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,66 +50,74 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user logs into ParaBank application")
-public void user_logs_into_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on accounts overview")
-public void user_clicks_on_accounts_overview() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should see account details and balances")
-public void user_should_see_account_details_and_balances() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user logs into ParaBank application")
-public void user_logs_into_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on accounts overview")
-public void user_clicks_on_accounts_overview() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should see account details and balances")
-public void user_should_see_account_details_and_balances() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/AccountOverview.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="17" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:13 IST" duration-ms="10611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to bill pay page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bill Pay Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:25 IST" duration-ms="11833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay bill using valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bill Pay Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:34 IST" duration-ms="9398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay bill using invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bill Pay Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:45 IST" duration-ms="11053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify bill payment confirmation message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bill Pay Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:40:53 IST" duration-ms="8193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,66 +130,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters valid username and password")
-public void user_enters_valid_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should navigate to account overview page")
-public void user_should_navigate_to_account_overview_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters valid username and password")
-public void user_enters_valid_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should navigate to account overview page")
-public void user_should_navigate_to_account_overview_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="17" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:40:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:00 IST" duration-ms="7007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,66 +146,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters invalid username and valid password")
-public void user_enters_invalid_username_and_valid_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters invalid username and valid password")
-public void user_enters_invalid_username_and_valid_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="17" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:09 IST" duration-ms="8543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,66 +162,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters valid username and invalid password")
-public void user_enters_valid_username_and_invalid_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters valid username and invalid password")
-public void user_enters_valid_username_and_invalid_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:21)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="14" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:16 IST" duration-ms="7347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -394,66 +178,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters blank username and password")
-public void user_enters_blank_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters blank username and password")
-public void user_enters_blank_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:29)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="15" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:24 IST" duration-ms="7634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -466,66 +194,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify username textbox")
-public void user_should_verify_username_textbox() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify password textbox")
-public void user_should_verify_password_textbox() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify login button")
-public void user_should_verify_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify username textbox")
-public void user_should_verify_username_textbox() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify password textbox")
-public void user_should_verify_password_textbox() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should verify login button")
-public void user_should_verify_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:37)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="21" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:33 IST" duration-ms="8718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -538,66 +210,42 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters invalid username and password")
-public void user_enters_invalid_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User enters invalid username and password")
-public void user_enters_invalid_username_and_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User clicks login button")
-public void user_clicks_login_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User should see invalid login error message")
-public void user_should_see_invalid_login_error_message() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Login.feature:45)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="7" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:41:47 IST" duration-ms="14577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:41:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:02 IST" duration-ms="14783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify session termination after logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:13 IST" duration-ms="10785" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -610,46 +258,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 1 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 1 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Registration.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="37" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:22 IST" duration-ms="9442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -662,176 +274,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 14 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters firstname")
-public void user_enters_firstname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters lastname")
-public void user_enters_lastname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters address")
-public void user_enters_address() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters city")
-public void user_enters_city() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters state")
-public void user_enters_state() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters zipcode")
-public void user_enters_zipcode() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters phone number")
-public void user_enters_phone_number() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters ssn")
-public void user_enters_ssn() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters username")
-public void user_enters_username() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters password")
-public void user_enters_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters confirm password")
-public void user_enters_confirm_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button")
-public void user_clicks_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should register successfully")
-public void user_should_register_successfully() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 14 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters firstname")
-public void user_enters_firstname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters lastname")
-public void user_enters_lastname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters address")
-public void user_enters_address() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters city")
-public void user_enters_city() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters state")
-public void user_enters_state() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters zipcode")
-public void user_enters_zipcode() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters phone number")
-public void user_enters_phone_number() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters ssn")
-public void user_enters_ssn() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters username")
-public void user_enters_username() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters password")
-public void user_enters_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters confirm password")
-public void user_enters_confirm_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button")
-public void user_clicks_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should register successfully")
-public void user_should_register_successfully() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Registration.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:29 IST" duration-ms="6985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -844,66 +290,10 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button without entering mandatory fields")
-public void user_clicks_register_button_without_entering_mandatory_fields() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should see mandatory field error")
-public void user_should_see_mandatory_field_error() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button without entering mandatory fields")
-public void user_clicks_register_button_without_entering_mandatory_fields() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should see mandatory field error")
-public void user_should_see_mandatory_field_error() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Registration.feature:30)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T15:43:16 IST" duration-ms="27" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:38 IST" duration-ms="9033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -916,176 +306,138 @@ at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBan
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User launches ParaBank application' and 14 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters firstname")
-public void user_enters_firstname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters lastname")
-public void user_enters_lastname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters address")
-public void user_enters_address() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters city")
-public void user_enters_city() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters state")
-public void user_enters_state() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters zipcode")
-public void user_enters_zipcode() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters phone number")
-public void user_enters_phone_number() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters ssn")
-public void user_enters_ssn() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters username")
-public void user_enters_username() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters password")
-public void user_enters_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters confirm password")
-public void user_enters_confirm_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button")
-public void user_clicks_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should register successfully")
-public void user_should_register_successfully() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User launches ParaBank application' and 14 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User launches ParaBank application")
-public void user_launches_para_bank_application() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks on register link")
-public void user_clicks_on_register_link() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters firstname")
-public void user_enters_firstname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters lastname")
-public void user_enters_lastname() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters address")
-public void user_enters_address() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters city")
-public void user_enters_city() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters state")
-public void user_enters_state() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters zipcode")
-public void user_enters_zipcode() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters phone number")
-public void user_enters_phone_number() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters ssn")
-public void user_enters_ssn() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters username")
-public void user_enters_username() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters password")
-public void user_enters_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user enters confirm password")
-public void user_enters_confirm_password() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks register button")
-public void user_clicks_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user should register successfully")
-public void user_should_register_successfully() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.User launches ParaBank application(file:///C:/Users/udayk/eclipse/ParaBank_Capstone/src/test/resources/features/Registration.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-24T15:43:16 IST" name="tearDownClass" finished-at="2026-05-24T15:43:16 IST" duration-ms="66" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:46 IST" duration-ms="8129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to transfer funds page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Transfer Funds Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:42:59 IST" duration-ms="12214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Transfer funds between accounts with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Transfer Funds Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:42:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:43:11 IST" duration-ms="12703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Transfer funds with invalid amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Transfer Funds Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:43:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:43:26 IST" duration-ms="15059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify success message after fund transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Transfer Funds Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:43:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:43:34 IST" duration-ms="8054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to update contact information page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Contact Information Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:43:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:43:44 IST" duration-ms="9638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update contact details with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Contact Information Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:43:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:43:52 IST" duration-ms="8242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update contact details with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Contact Information Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:43:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-25T15:44:04 IST" duration-ms="11351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify updated contact information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Contact Information Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@6c40365c]" started-at="2026-05-25T15:44:04 IST" name="tearDownClass" finished-at="2026-05-25T15:44:04 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
