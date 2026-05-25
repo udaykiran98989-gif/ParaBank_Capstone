@@ -24,8 +24,8 @@ public class LoginSteps extends BaseClass {
     @When("User enters valid username and password")
     public void user_enters_valid_username_and_password() {
 
-        loginPage.enterUsername("NewLogin4");
-        loginPage.enterPassword("Uday@0704");
+        loginPage.enterUsername("john");
+        loginPage.enterPassword("demo");
     }
 
     @When("User enters invalid username and valid password")
