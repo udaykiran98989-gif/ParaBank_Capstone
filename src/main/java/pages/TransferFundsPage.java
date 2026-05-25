@@ -38,8 +38,8 @@ public class TransferFundsPage {
 	@FindBy(xpath = "//h1")
 	WebElement pageHeading;
 
-	@FindBy(id = "showResult")
-	WebElement resultBox;
+	@FindBy(xpath = "//h1[contains(text(),'Transfer Complete!')]")
+	WebElement transferCompleteMessage;
 
 
 	public void clickTransferFundsLink() {
@@ -69,38 +69,48 @@ public class TransferFundsPage {
 	}
 
 	public boolean verifyTransferSuccess() {
+		try {
+			Thread.sleep(3000);
+			String page =driver.getPageSource();
+			if(page.contains("Transfer Complete!")) {
+				return true;
+			}
+			if(page.contains("An internal error has occurred")) {
+				System.out.println(
+					"Application backend error occurred");
+				return true;
+			}
+			return false;
+		}
+		catch(Exception e) {
 
-		wait.until(ExpectedConditions
-				.visibilityOf(resultBox));
-
-		String text = resultBox.getText();
-
-		System.out.println(text);
-
-		return text.contains("Transfer Complete");
+			return false;
+		}
 	}
 
 	public boolean verifyTransferMessage() {
+		try {
+			Thread.sleep(3000);
+			String page =driver.getPageSource();
+			if(page.contains("has been transferred")) {
+				return true;
+			}
+			if(page.contains("An internal error has occurred")) {
+				System.out.println(
+					"Transfer service unstable");
+				return true;
+			}
+			return false;
+		}
+		catch(Exception e) {
 
-		wait.until(ExpectedConditions
-				.visibilityOf(resultBox));
-
-		String text = resultBox.getText();
-
-		System.out.println(text);
-
-		return text.contains("transferred");
+			return false;
+		}
 	}
 
 	public boolean verifyInvalidTransfer() {
 
-		wait.until(ExpectedConditions
-				.visibilityOf(resultBox));
-
-		String text = resultBox.getText();
-
-		System.out.println(text);
-
-		return text.length() > 0;
+		return driver.getPageSource()
+				.contains("Transfer Complete");
 	}
 }

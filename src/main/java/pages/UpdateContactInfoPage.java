@@ -56,8 +56,9 @@ public class UpdateContactInfoPage {
 	@FindBy(xpath = "//h1")
 	WebElement pageHeading;
 
-	@FindBy(xpath = "//div[@id='updateProfileResult']")
-	WebElement updateResult;
+	@FindBy(xpath =
+			"//h1[contains(text(),'Profile Updated')]")
+			WebElement profileUpdatedMessage;
 
 
 	public void clickUpdateContactInfoLink() {
@@ -125,23 +126,26 @@ public class UpdateContactInfoPage {
 	public boolean verifyUpdateSuccess() {
 
 		wait.until(ExpectedConditions
-				.visibilityOf(updateResult));
+				.visibilityOf(profileUpdatedMessage));
 
-		String text = updateResult.getText();
+		String text = profileUpdatedMessage.getText();
 
 		return text.contains("Profile Updated");
 	}
 
 	public boolean verifyUpdatedInfoMessage() {
 
+		WebDriverWait wait =
+				new WebDriverWait(driver,
+						Duration.ofSeconds(20));
+
 		wait.until(ExpectedConditions
-				.visibilityOf(updateResult));
+				.visibilityOf(
+						profileUpdatedMessage));
 
-		String text = updateResult.getText();
-
-		return text.contains("updated");
+		return profileUpdatedMessage
+				.isDisplayed();
 	}
-
 	public boolean verifyInvalidUpdateBehavior() {
 
 		return driver.getPageSource()
